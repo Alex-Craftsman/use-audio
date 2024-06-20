@@ -1,15 +1,11 @@
 {
   "name": "@crfmn/use-audio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Audio play hook for a ReactJS application",
   "main": "dist/index.js",
-  "module": "dist/use-audio.esm.js",
-  "exports": {
-    "import": "./dist/use-audio.esm.js",
-    "require": "./dist/index.js"
-  },
+  "types": "dist/index.d.ts",
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
