@@ -1,0 +1,45 @@
+{
+  "name": "@crfmn/use-audio",
+  "version": "1.0.0",
+  "description": "Audio play hook for a ReactJS application",
+  "main": "dist/index.js",
+  "module": "dist/use-audio.esm.js",
+  "exports": {
+    "import": "./dist/use-audio.esm.js",
+    "require": "./dist/index.js"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": {
+    "name": "Alex Craftsman",
+    "email": "alx@crf.mn",
+    "url": "https://crf.mn/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alex-Craftsman/use-audio"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex-Craftsman/use-audio/issues",
+    "email": "alx@crf.mn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": ">=18.3"
+  }
+}
