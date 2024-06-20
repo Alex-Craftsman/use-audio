@@ -1,6 +1,6 @@
 {
   "name": "@crfmn/use-audio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Audio play hook for a ReactJS application",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
